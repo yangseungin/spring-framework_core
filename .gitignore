@@ -127,3 +127,9 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 
 # End of https://www.gitignore.io/api/macos,maven,intellij,java-web
+.gitignore 제거할 예정
+.mvn/ 제거할 예정
+mvnw 제거할 예정
+mvnw.cmd 제거할 예정
+pom.xml 제거할 예정
+src/ 제거할 예정
