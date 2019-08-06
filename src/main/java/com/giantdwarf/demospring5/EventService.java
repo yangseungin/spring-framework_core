@@ -1,10 +1,14 @@
 package com.giantdwarf.demospring5;
 
-public interface EventService {
+import org.springframework.lang.NonNull;
+import org.springframework.stereotype.Service;
 
-    void createEvent();
+@Service
+public class EventService {
 
-    void publishEvent();
+    @NonNull
+    public String createEvent(@NonNull String name){
+        return "Hello" + name;
+    }
 
-    void deleteEvent();
 }
