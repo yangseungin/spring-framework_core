@@ -12,7 +12,9 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(SpringRunner.class)
-@WebMvcTest
+@WebMvcTest({
+        EventConverter.StringToEventConverter.class,
+        EventControler.class})
 public class EventControlerTest {
 
     @Autowired
